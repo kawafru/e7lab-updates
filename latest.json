@@ -1,5 +1,6 @@
 {
-  "version": "1.01",
-  "downloadUrl": "https://github.com/kawafru/e7lab-updates/releases/tag/v1.01",
-  "notes": "앱 실행 시 새 버전 확인 기능이 포함된 v1.01 배포본입니다."
+  "version": "1.02",
+  "downloadUrl": "https://github.com/kawafru/e7lab-updates/releases/tag/v1.02",
+  "notes": "일반 아레나 조합 시너지를 강화했습니다.\n사르미아의 추가 턴 연계와 영웅별 스킬 조건을 반영하고, 추천 조합에 연계 근거를 표시합니다.",
+  "sha256": "9f339ef613b2ab3d9879659e524599fc54db5aae3793a3c0b8ff2399812b291f"
 }
