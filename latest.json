@@ -1,7 +1,7 @@
 {
-  "version": "1.02.0.2",
-  "displayVersion": "1.02b",
-  "downloadUrl": "https://github.com/kawafru/e7lab-updates/releases/tag/v1.02b",
-  "notes": "v1.02b · 자체 업데이트, 핵심 노트와 팀 시너지 분석을 개선했습니다.\n기존 v1.01·v1.02는 이번 배포본으로 한 번 교체한 뒤 자체 업데이트를 사용할 수 있습니다.",
-  "sha256": "6ca1f000be6dc4ad0ee5ffed0bc4a1616e0e89b503fb7517489dbba57e200572"
+  "notes": "영웅별 통계 갱신 대기 시간과 줄임말 검색, 신규 영웅 도감 및 화면 이동을 개선했습니다.",
+  "version": "1.03",
+  "sha256": "1c3681ca4e8ce762cd930f5213ce5e2ad924ff060b402b67ae6e92bdf2ec030b",
+  "downloadUrl": "https://github.com/kawafru/e7lab-updates/releases/tag/v1.03",
+  "displayVersion": "1.03"
 }
