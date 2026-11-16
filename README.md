@@ -18,4 +18,4 @@ Version segments are compared numerically: 1.02 is newer than 1.01. Keeping a re
 
 The new Update button downloads, verifies SHA-256, installs and restarts the desktop app, preserving UserData. Versions 1.01/1.02 need one manual replacement first. The numeric compatibility version 1.02.0.2 plus displayVersion 1.02b lets legacy numeric-only checkers detect this letter-suffix release. Always keep native and Node version ordering in sync. After verifying the release asset, publish its SHA-256 in latest.json. Never upload UserData or advertise unpublished assets.
 
-The v1.02b portable asset includes the TLS 1.2 download fix. The superseded pre-fix asset is labeled `before-TLS-fix`; use `E7Lab-v1.02b.zip` for installation. Certificate validation stays enabled.
+The v1.02b portable asset includes TLS 1.2 and reads the latest manifest through the GitHub Contents API when Update is clicked, avoiding stale raw-CDN validation hashes. Startup notices remain cached. Archives labeled `before-TLS-fix` or `before-cache-fix` are superseded; use `E7Lab-v1.02b.zip` for installation. Certificate validation stays enabled.
