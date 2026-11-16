@@ -2,7 +2,7 @@
 
 Public update channel for E7Lab (에붕연구소). Application and Byblis source code remain private.
 
-Current application version: **1.02**. This portable build checks `latest.json` in the background at startup. Newer versions open a download notice; files are not installed automatically. The Data & Guide page also provides a manual check. No roster, match history, account, or credentials are sent. Checks are coalesced and cached for ten minutes; failures back off for one minute and never block local analysis.
+Current application version: **1.02b**. This portable build checks `latest.json` in the background at startup. Newer versions open a download notice; files are not installed automatically. The Data & Guide page also provides a manual check. No roster, match history, account, or credentials are sent. Checks are coalesced and cached for ten minutes; failures back off for one minute and never block local analysis.
 
 ## Publishing the next version
 
@@ -13,3 +13,7 @@ Current application version: **1.02**. This portable build checks `latest.json` 
 5. Verify the manifest anonymously and test an older client against it.
 
 Version segments are compared numerically: 1.02 is newer than 1.01. Keeping a release at 1.01 does not prompt existing 1.01 users to update. Older ZIPs created before the update checker was added must be replaced once with this build. To upgrade, close the app, replace the application files, and keep the existing UserData folder. Extract into a new folder for a clean installation.
+
+## Native updates since v1.02b
+
+The new Update button downloads, verifies SHA-256, installs and restarts the desktop app, preserving UserData. Versions 1.01/1.02 need one manual replacement first. The numeric compatibility version 1.02.0.2 plus displayVersion 1.02b lets legacy numeric-only checkers detect this letter-suffix release. Always keep native and Node version ordering in sync. After verifying the release asset, publish its SHA-256 in latest.json. Never upload UserData or advertise unpublished assets.
