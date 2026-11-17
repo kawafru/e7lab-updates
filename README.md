@@ -19,3 +19,10 @@ Version segments are compared numerically: 1.02 is newer than 1.01. Keeping a re
 The new Update button downloads, verifies SHA-256, installs and restarts the desktop app, preserving UserData. Versions 1.01/1.02 need one manual replacement first. The numeric compatibility version 1.02.0.2 plus displayVersion 1.02b lets legacy numeric-only checkers detect this letter-suffix release. Always keep native and Node version ordering in sync. After verifying the release asset, publish its SHA-256 in latest.json. Never upload UserData or advertise unpublished assets.
 
 The v1.02b portable asset includes TLS 1.2 and reads the latest manifest through the GitHub Contents API when Update is clicked, avoiding stale raw-CDN validation hashes. Startup notices remain cached. Archives labeled `before-TLS-fix` or `before-cache-fix` are superseded; use `E7Lab-v1.02b.zip` for installation. Certificate validation stays enabled.
+
+
+## Silent maintenance builds
+
+The public app version can stay at v1.03 while installer builds advance numerically, starting with 1.03.0.1. `APP_VERSION` in the package is the installer identity; `APP_DISPLAY_VERSION` is the user-facing version. Publish `E7Lab-v1.03.0.1.zip` under tag `v1.03.0.1`, with the release title `v1.03`. The manifest uses `version: 1.03.0.1` and `appVersion: 1.03`; omit `displayVersion` for this scheme to preserve strict legacy validation. Keep `notes` empty for a silent patch and retain the existing in-app release-note history.
+
+Old v1.03 startup checkers show the numeric build once because their schema has no separate public-version field. Existing native installers can still resolve and verify the build-tagged asset. Updated checkers display the public version, detect subsequent higher builds of that release, and stop notifying after the installed build matches. Never advertise a new build before verifying the published archive digest.
