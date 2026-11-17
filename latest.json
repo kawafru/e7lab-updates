@@ -1,7 +1,7 @@
 {
-  "notes": "영웅별 통계 갱신 대기 시간과 줄임말 검색, 신규 영웅 도감 및 화면 이동을 개선했습니다.",
-  "version": "1.03",
-  "sha256": "1c3681ca4e8ce762cd930f5213ce5e2ad924ff060b402b67ae6e92bdf2ec030b",
-  "downloadUrl": "https://github.com/kawafru/e7lab-updates/releases/tag/v1.03",
-  "displayVersion": "1.03"
+  "version": "1.03.0.1",
+  "appVersion": "1.03",
+  "downloadUrl": "https://github.com/kawafru/e7lab-updates/releases/tag/v1.03.0.1",
+  "sha256": "2f2e945be7675fcd999c21913b316dd4d1e3710bdc09c46f661b692cc21ab66e",
+  "notes": ""
 }
