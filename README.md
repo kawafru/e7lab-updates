@@ -2,7 +2,7 @@
 
 Public update channel for E7Lab (에붕연구소). Application and Byblis source code remain private.
 
-Current application version: **1.02b**. This portable build checks `latest.json` in the background at startup. A newer version opens a notice; clicking Update downloads, verifies, installs and restarts the app. The Data & Guide page also provides a manual check. No roster, match history, account, or credentials are sent. Checks are coalesced and cached for ten minutes; failures back off for one minute and never block local analysis.
+Current application version: **1.04**. This portable build checks `latest.json` in the background at startup. A newer version opens a notice; clicking Update downloads, verifies, installs and restarts the app. The Data & Guide page also provides a manual check. No roster, match history, account, or credentials are sent. Checks are coalesced and cached for ten minutes; failures back off for one minute and never block local analysis.
 
 ## Publishing the next version
 
@@ -26,3 +26,6 @@ The v1.02b portable asset includes TLS 1.2 and reads the latest manifest through
 The public app version can stay at v1.03 while installer builds advance numerically, starting with 1.03.0.1. `APP_VERSION` in the package is the installer identity; `APP_DISPLAY_VERSION` is the user-facing version. Publish `E7Lab-v1.03.0.1.zip` under tag `v1.03.0.1`, with the release title `v1.03`. The manifest uses `version: 1.03.0.1` and `appVersion: 1.03`; omit `displayVersion` for this scheme to preserve strict legacy validation. Keep `notes` empty for a silent patch and retain the existing in-app release-note history.
 
 Old v1.03 startup checkers show the numeric build once because their schema has no separate public-version field. Existing native installers can still resolve and verify the build-tagged asset. Updated checkers display the public version, detect subsequent higher builds of that release, and stop notifying after the installed build matches. Never advertise a new build before verifying the published archive digest.
+
+
+v1.04 adds four-plan draft evaluation and conditional stat-scaling/counter synergy. The portable asset starts with zero owned heroes and keeps the 20-hero Foundry preset. Native update verification covers v1.02b and v1.03 to v1.04, preserving UserData.

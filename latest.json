@@ -1,7 +1,7 @@
 {
-  "version": "1.03.0.1",
-  "appVersion": "1.03",
-  "downloadUrl": "https://github.com/kawafru/e7lab-updates/releases/tag/v1.03.0.1",
-  "sha256": "2f2e945be7675fcd999c21913b316dd4d1e3710bdc09c46f661b692cc21ab66e",
-  "notes": ""
+  "version": "1.04",
+  "appVersion": "1.04",
+  "downloadUrl": "https://github.com/kawafru/e7lab-updates/releases/tag/v1.04",
+  "sha256": "c014f89274a5dbc33f53b9f688c8554c5d1e246e18ee61d047e317d1345809b1",
+  "notes": "덱 컨셉과 스킬 발동 조건을 함께 보는 조합 분석을 개선했습니다. 속덱·눕덱·반격덱·지오덱과 후속 전환, 생명력 비례 시너지, 반격 봉쇄 및 하르세티존 조건을 반영했습니다."
 }
