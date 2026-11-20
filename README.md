@@ -2,7 +2,7 @@
 
 Public update channel for E7Lab (에붕연구소). Application and Byblis source code remain private.
 
-Current application version: **1.04b**. This portable build checks `latest.json` in the background at startup. A newer version opens a notice; clicking Update downloads, verifies, installs and restarts the app. The Data & Guide page also provides a manual check. No roster, match history, account, or credentials are sent. Checks are coalesced and cached for ten minutes; failures back off for one minute and never block local analysis.
+Current application version: **1.04c**. This portable build checks `latest.json` in the background at startup. A newer version opens a notice; clicking Update downloads, verifies, installs and restarts the app. The Data & Guide page also provides a manual check. No roster, match history, account, or credentials are sent. Checks are coalesced and cached for ten minutes; failures back off for one minute and never block local analysis.
 
 ## Publishing the next version
 
@@ -36,3 +36,8 @@ v1.04 adds four-plan draft evaluation and conditional stat-scaling/counter syner
 This release prioritizes intrinsic stats and observed early-pick flexibility, adds local per-draft-stage estimates with explicit validation gates, analysis-history export/import and anonymized official Champion+ match collection. Current and previous regular-season statistics are combined without duplicate accumulation. The clean package contains zero owned heroes, no personal history or UserData, and the 20-hero Foundry exclusion preset. Visual verification was omitted at the owner’s request; automated and native update safety checks passed.
 
 Compatibility identity: `version: 1.04.0.2`, `displayVersion: 1.04b`, with tag `v1.04b` and asset `E7Lab-v1.04b.zip`. Omit `appVersion` for this suffix scheme, so pre-existing v1.04 and earlier native clients resolve the same release and staged app identity correctly.
+
+
+## v1.04c
+
+Expand the public Champion+ corpus from 273 to 2,228 unique actual matches, using all top-100 ranking entries and deeper history pages. The final 4v4 and each pick phase retain their original chronological validation gates. The UI reports actual validation failures separately from insufficient samples. Clean installs start with zero owned heroes and the 20-hero Foundry preset. Source requests remain serialized and bounded; inference runs locally. Use wire identity `1.04.0.3` plus `displayVersion: 1.04c`, tag `v1.04c`, asset `E7Lab-v1.04c.zip`; omit `appVersion` for legacy suffix compatibility.

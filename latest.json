@@ -1,7 +1,7 @@
 {
-  "version": "1.04.0.2",
-  "displayVersion": "1.04b",
-  "downloadUrl": "https://github.com/kawafru/e7lab-updates/releases/tag/v1.04b",
-  "sha256": "9ba7f53ae55b377822cb169ad079a637b1fb002b40a5cd95326c6b80eea7b479",
-  "notes": "체급·범용성 중심의 추천과 픽마다 참고 승률을 갱신하는 분석을 개선했습니다. 분석 기록 저장·불러오기, 공개 상위권 경기 수집, 현재·직전 시즌 통계 합산을 추가했습니다."
+  "version": "1.04.0.3",
+  "displayVersion": "1.04c",
+  "downloadUrl": "https://github.com/kawafru/e7lab-updates/releases/tag/v1.04c",
+  "sha256": "ba0ebaaf483b3068ac40eb7ae7c99ad24972d2bef58830bef6f1ea310d1023a1",
+  "notes": "공개 상위권 실제 경기 표본을 2,228판으로 확대하고 픽 단계별·최종 4대4 승률을 다시 검증했습니다. 경기 수집 범위와 승률 안내를 개선했습니다."
 }
