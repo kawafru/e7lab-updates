@@ -55,3 +55,10 @@ Conditional draft recommendations use 36,851 sanitized unique actual BOTH-Champi
 The independent probability dataset remains 2,228 official actual-outcome games; recommendation counts are not silently added to probability training. The portable package starts with zero owned heroes, contains no personal UserData/history and retains the 20-hero Foundry preset. Existing native updates preserve UserData.
 
 Manifest identity: `version: 1.05`; release tag `v1.05`; asset `E7Lab-v1.05.zip`. This numeric version requires no compatibility suffix alias. The approved review ZIP was promoted byte-for-byte, with its verified SHA-256 in latest.json.
+
+
+### v1.05 maintenance build 1.05.0.1
+
+The public version and in-app release-note list remain 1.05. The installer build is 1.05.0.1, using tag v1.05.0.1 and asset E7Lab-v1.05.0.1.zip. The manifest sets appVersion to 1.05, omits displayVersion and carries an empty notes field. Existing 1.05 installations detect this maintenance build once.
+
+Live draft commentary now shows short revealed-mechanic and owned-ready-response lines without source counts. The conditional-statistics box is removed; full reasoning and evidence remain in frozen analysis history. Unconfirmed opponent continuation candidates appear in a compact list in the center readout. The release preserves UserData and the clean package retains zero owned heroes and the 20-hero Foundry preset.

@@ -1,6 +1,7 @@
 {
-  "version": "1.05",
-  "downloadUrl": "https://github.com/kawafru/e7lab-updates/releases/tag/v1.05",
-  "sha256": "2a2d44ae0cc1afe9c9b7c2f89191d1cc820305a605d8a31d4b0a4f2f7d873edc",
-  "notes": "프리밴·선후픽·픽 순서별 전적과 스킬 기믹을 추천·해설에 반영했습니다. 분석 기록에 픽별 추천 이유·조건·표본·상세 해설을 보존하며, 파일 저장·불러오기에도 포함합니다."
+  "version": "1.05.0.1",
+  "appVersion": "1.05",
+  "downloadUrl": "https://github.com/kawafru/e7lab-updates/releases/tag/v1.05.0.1",
+  "sha256": "3a608e405af5f082ce34245b084a1bb0f5541808f8adc396a4ab5d197b870ac0",
+  "notes": ""
 }
