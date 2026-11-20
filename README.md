@@ -62,3 +62,12 @@ Manifest identity: `version: 1.05`; release tag `v1.05`; asset `E7Lab-v1.05.zip`
 The public version and in-app release-note list remain 1.05. The installer build is 1.05.0.1, using tag v1.05.0.1 and asset E7Lab-v1.05.0.1.zip. The manifest sets appVersion to 1.05, omits displayVersion and carries an empty notes field. Existing 1.05 installations detect this maintenance build once.
 
 Live draft commentary now shows short revealed-mechanic and owned-ready-response lines without source counts. The conditional-statistics box is removed; full reasoning and evidence remain in frozen analysis history. Unconfirmed opponent continuation candidates appear in a compact list in the center readout. The release preserves UserData and the clean package retains zero owned heroes and the 20-hero Foundry preset.
+
+
+### v1.05 maintenance build 1.05.0.2
+
+The displayed version and in-app patch notes remain 1.05. The immutable installer identity is 1.05.0.2, tag v1.05.0.2 and asset E7Lab-v1.05.0.2.zip. The manifest has appVersion 1.05 and empty notes, without displayVersion.
+
+Prebans are distinct within a team while legal cross-team overlap is preserved. The inference exclusion union is deduplicated. Brief team synergy notes now sit below each team's PRE-BAN row: owned-ready candidates on our side, explicitly unconfirmed available candidates on the opponent's side. Registered mechanics and paired evidence support the notes; native-counter conflicts are avoided. Full commentary and frozen team notes persist in history archives. The central continuation list is retained, and no new source request is made per pick.
+
+This is a presentation/input maintenance update. Recommendation and probability weights, the 36,851 actual BOTH-Champion+ conditional snapshot (from up to 50,000 source rows), and the 20-hero Foundry preset remain unchanged. The website's full Rank-All/union-preban counts are not identical local samples. Existing UserData is preserved; clean portable defaults start with zero owned heroes.
