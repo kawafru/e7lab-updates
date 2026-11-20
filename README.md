@@ -2,7 +2,7 @@
 
 Public update channel for E7Lab (에붕연구소). Application and Byblis source code remain private.
 
-Current application version: **1.04c**. This portable build checks `latest.json` in the background at startup. A newer version opens a notice; clicking Update downloads, verifies, installs and restarts the app. The Data & Guide page also provides a manual check. No roster, match history, account, or credentials are sent. Checks are coalesced and cached for ten minutes; failures back off for one minute and never block local analysis.
+Current application version: **1.05**. This portable build checks `latest.json` in the background at startup. A newer version opens a notice; clicking Update downloads, verifies, installs and restarts the app. The Data & Guide page also provides a manual check. No roster, match history, account, or credentials are sent. Checks are coalesced and cached for ten minutes; failures back off for one minute and never block local analysis.
 
 ## Publishing the next version
 
@@ -46,3 +46,12 @@ Expand the public Champion+ corpus from 273 to 2,228 unique actual matches, usin
 ## v1.04d
 
 Prioritize intrinsic strength/flexibility in the first two own picks, then reviewed mechanic counters against revealed opponents. Live opponent commentary explains conditional composition paths and responses without inferring private intent or unseen gear. Probability features remain separate and unchanged. Zero-owned portable package with the 20-hero Foundry preset. Wire identity `1.04.0.4`, displayVersion `1.04d`, tag `v1.04d`, asset `E7Lab-v1.04d.zip`.
+
+
+## v1.05
+
+Conditional draft recommendations use 36,851 sanitized unique actual BOTH-Champion+ Slendy matches, with sided prebans, pick side, revealed picks, second-side opening pairs and Vanguard usage. Mixed-tier side/slot, pair/trio and mover aggregates are supporting priors, clearly separated from exact contexts. Registered skill capabilities and the owned-ready pool inform concise opponent commentary. Detailed history preserves per-pick reasons, counts, bans and full commentary across JSON export/import, without recalculating old reasoning from new statistics.
+
+The independent probability dataset remains 2,228 official actual-outcome games; recommendation counts are not silently added to probability training. The portable package starts with zero owned heroes, contains no personal UserData/history and retains the 20-hero Foundry preset. Existing native updates preserve UserData.
+
+Manifest identity: `version: 1.05`; release tag `v1.05`; asset `E7Lab-v1.05.zip`. This numeric version requires no compatibility suffix alias. The approved review ZIP was promoted byte-for-byte, with its verified SHA-256 in latest.json.

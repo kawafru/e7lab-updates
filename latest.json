@@ -1,7 +1,6 @@
 {
-  "version": "1.04.0.4",
-  "displayVersion": "1.04d",
-  "downloadUrl": "https://github.com/kawafru/e7lab-updates/releases/tag/v1.04d",
-  "sha256": "95e5936eb35a8415a5b7670b0accefdf6ebd827edc6812f703562b1197ac906a",
-  "notes": "초반 체급·범용성과 후반 기믹 카운터의 추천 비중을 조절하고, 상대 픽의 핵심 기믹·조합 연결·대처 포인트를 실시간 해설로 보여줍니다."
+  "version": "1.05",
+  "downloadUrl": "https://github.com/kawafru/e7lab-updates/releases/tag/v1.05",
+  "sha256": "2a2d44ae0cc1afe9c9b7c2f89191d1cc820305a605d8a31d4b0a4f2f7d873edc",
+  "notes": "프리밴·선후픽·픽 순서별 전적과 스킬 기믹을 추천·해설에 반영했습니다. 분석 기록에 픽별 추천 이유·조건·표본·상세 해설을 보존하며, 파일 저장·불러오기에도 포함합니다."
 }
