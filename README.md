@@ -2,7 +2,7 @@
 
 Public update channel for E7Lab (에붕연구소). Application and Byblis source code remain private.
 
-Current application version: **1.04**. This portable build checks `latest.json` in the background at startup. A newer version opens a notice; clicking Update downloads, verifies, installs and restarts the app. The Data & Guide page also provides a manual check. No roster, match history, account, or credentials are sent. Checks are coalesced and cached for ten minutes; failures back off for one minute and never block local analysis.
+Current application version: **1.04b**. This portable build checks `latest.json` in the background at startup. A newer version opens a notice; clicking Update downloads, verifies, installs and restarts the app. The Data & Guide page also provides a manual check. No roster, match history, account, or credentials are sent. Checks are coalesced and cached for ten minutes; failures back off for one minute and never block local analysis.
 
 ## Publishing the next version
 
@@ -29,3 +29,10 @@ Old v1.03 startup checkers show the numeric build once because their schema has 
 
 
 v1.04 adds four-plan draft evaluation and conditional stat-scaling/counter synergy. The portable asset starts with zero owned heroes and keeps the 20-hero Foundry preset. Native update verification covers v1.02b and v1.03 to v1.04, preserving UserData.
+
+
+## v1.04b
+
+This release prioritizes intrinsic stats and observed early-pick flexibility, adds local per-draft-stage estimates with explicit validation gates, analysis-history export/import and anonymized official Champion+ match collection. Current and previous regular-season statistics are combined without duplicate accumulation. The clean package contains zero owned heroes, no personal history or UserData, and the 20-hero Foundry exclusion preset. Visual verification was omitted at the owner’s request; automated and native update safety checks passed.
+
+Compatibility identity: `version: 1.04.0.2`, `displayVersion: 1.04b`, with tag `v1.04b` and asset `E7Lab-v1.04b.zip`. Omit `appVersion` for this suffix scheme, so pre-existing v1.04 and earlier native clients resolve the same release and staged app identity correctly.
