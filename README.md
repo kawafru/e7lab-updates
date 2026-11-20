@@ -41,3 +41,8 @@ Compatibility identity: `version: 1.04.0.2`, `displayVersion: 1.04b`, with tag `
 ## v1.04c
 
 Expand the public Champion+ corpus from 273 to 2,228 unique actual matches, using all top-100 ranking entries and deeper history pages. The final 4v4 and each pick phase retain their original chronological validation gates. The UI reports actual validation failures separately from insufficient samples. Clean installs start with zero owned heroes and the 20-hero Foundry preset. Source requests remain serialized and bounded; inference runs locally. Use wire identity `1.04.0.3` plus `displayVersion: 1.04c`, tag `v1.04c`, asset `E7Lab-v1.04c.zip`; omit `appVersion` for legacy suffix compatibility.
+
+
+## v1.04d
+
+Prioritize intrinsic strength/flexibility in the first two own picks, then reviewed mechanic counters against revealed opponents. Live opponent commentary explains conditional composition paths and responses without inferring private intent or unseen gear. Probability features remain separate and unchanged. Zero-owned portable package with the 20-hero Foundry preset. Wire identity `1.04.0.4`, displayVersion `1.04d`, tag `v1.04d`, asset `E7Lab-v1.04d.zip`.
